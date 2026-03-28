@@ -1,0 +1,12 @@
+# Ignore the Python backend
+models/
+services/
+ml/
+venv/
+.env
+main.py
+requirements.txt
+# If your FastAPI code is inside a folder named 'app', we need to be careful.
+# For now, let's ignore the Python logic files specifically:
+**/__pycache__/
+**/*.py
